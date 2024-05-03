@@ -1,4 +1,37 @@
-* {
+body {
     background-color: #FAF8F0;
-    color:#1F150A
+    color:#1F150A;
+    margin: 0;
+    font: 1.2em Helvetica, Arial;
+}
+
+.blogName {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: auto;
+    max-width: 980px;
+    text-align: center;
+}
+
+nav {
+    background-color: #1F150A;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    margin: .3em;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+
+nav a {
+    color: #FAF8F0;
+    text-decoration: none;
+    padding: .5em 1em;
+    flex: 1 auto;
 }
